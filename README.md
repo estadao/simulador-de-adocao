@@ -1,6 +1,6 @@
 # Simulação mostra quais crianças são adotadas (e quais não são) no Brasil
 
-Esse repositório contém o código que gerou as análises de dado [desta matéria](https://arte.estadao.com.br/brasil/adocao/criancas/).
+Esse repositório contém o código que gerou as análises [desta matéria](https://arte.estadao.com.br/brasil/adocao/criancas/).
 
 Menino de 14 anos, pardo e com irmãos. Menina de 2 anos, branca e filha única. Este material ajuda a entender o contraste entre as crianças disponíveis para adoção e as características mais buscadas por possíveis pais.
 

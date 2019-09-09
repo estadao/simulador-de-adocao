@@ -49,4 +49,28 @@ Se aplicarmos esta proporção ao número de pretendentes (62.230), teremos 1.26
 
 ## Como usar?
 
-`…`
+A simulação foi feita em JavaScript. Para rodá-la, acesse o arquivo `index.html` no navegador*. Estão previstas 4 opções:
+
+```
+options = {
+  adopted:                100,
+  applicantsPerDay:         4,
+  equalAgeDistribution: false,
+  randomBirthdays:       true,
+}
+```
+
+ Abaixo, uma breve descrição destas opções:
+
+| Propriedade  | Descrição  |
+| :------------ | :------------ |
+|  `adopted` |  No exemplo acima, a simulação seria rodada milhares de vezes, até atingir 100 crianças adotadas. |
+| `applicantsPerDay`  |  Esta opção define quão rápido se passa o tempo.  Quanto mais pretendentes “visitarem”o abrigo por dia, mais rápido as crianças serão adotadas |
+| `equalAgeDistribution`  |  Buscando isolar variáveis para análise, pode ser interessante gerar crianças que tenham a mesma chance de ter cada idade (e não usar a distribuição real de idade). Se este for o caso, basta ativar esta opção |
+| `randomBirthdays`  | Se esta opção estiver desabilitada, toda criança terá nascido no dia 1º de janeiro |
+
+O resultado da simulação aparece como um JSON impresso na página.
+
+
+
+**Seria ideal ter uma versão em Node ou em Python. Entretanto, a simulação nasceu como um gráfico interativo e, só depois, o processamento foi isolado da renderização visual.*
